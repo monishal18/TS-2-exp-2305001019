@@ -21,6 +21,10 @@ To perform time series analysis and decomposition on the monthly average tempera
 6. Plot and display each component.
 7. Observe the results.
 
+## Observation
+The monthly temperature increases until May and then gradually decreases towards December. The decomposition separates the observed data into trend, seasonal, and residual components.
+
+
 ## Program
 ```
 
@@ -139,9 +143,6 @@ print(result.resid)
 
 <img width="652" height="150" alt="image" src="https://github.com/user-attachments/assets/e59d3d92-f961-4e8d-af19-bab770a6d048" />
 
-
-## Observation
-The monthly temperature increases until May and then gradually decreases towards December. The decomposition separates the observed data into trend, seasonal, and residual components.
 
 ## Result
 Thus, the monthly temperature time series was successfully plotted and decomposed into observed, trend, seasonal, and residual components using Python.
